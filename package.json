@@ -1,5 +1,26 @@
 {
   "dependencies": {
     "restify": "^8.6.1"
+  },
+  "name": "restifyserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arthur-Diesel/RestifyServer.git"
+  },
+  "author": "Arthur D. O.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arthur-Diesel/RestifyServer/issues"
+  },
+  "homepage": "https://github.com/Arthur-Diesel/RestifyServer#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
