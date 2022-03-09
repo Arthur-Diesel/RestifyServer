@@ -1,5 +1,33 @@
 {
   "dependencies": {
+    "better-sqlite3": "^7.5.0",
+    "knex": "^1.0.3",
     "restify": "^8.6.1"
+  },
+  "name": "restifyserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arthur-Diesel/RestifyServer.git"
+  },
+  "author": "Arthur D. O.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arthur-Diesel/RestifyServer/issues"
+  },
+  "homepage": "https://github.com/Arthur-Diesel/RestifyServer#readme",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "nodemon": "^2.0.15"
   }
 }
